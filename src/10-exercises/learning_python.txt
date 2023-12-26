@@ -1,0 +1,8 @@
+In Python you can assign strings to variables and strip them left, right, and center :P.
+In Python you can work with lists and sets.
+In Python you can control the flow of your program using if statements.
+In Python you can work with dictionaries, which are key-value pairs.
+In Python you can work with user input and validate the input with while loops.
+In Python you can write functions, pass arguments (positional, keyword, and arbitrary), and store functions to modules.
+In Python you can write docstrings, for documentation purposes.
+In Python you can write classes, use the __init__ function to initialize them, and use the super() function to access attributes of a parent class (superclass).

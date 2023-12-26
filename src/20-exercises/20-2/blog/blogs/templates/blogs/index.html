@@ -1,0 +1,39 @@
+{% extends "blogs/base.html" %}
+
+{% block page_header %}
+    <div class="jumbotron">
+        <h1 class="display-4">Blob Blog</h1>
+        <p class="lead">The best blog eu.</p>
+        {% if not user.is_authenticated %}
+            <a class="btn btn-lg btn-secondary" href="{% url 'users:register' %}" role="button">Register &#10162;</a>
+        {% endif%}
+    </div>
+{% endblock page_header %}
+
+{% block content %}
+    {% if user.is_authenticated %}
+        <div>
+            <h2>New Post</h2>
+            <p><a href="{% url 'blogs:new-post' %}">Add a new blog post</a></p>
+        </div>
+    {% endif %}
+    <div>
+        <h2>Posts</h2>
+        {% for blog_post in blog_posts %}
+            <div class="card mb-3">
+                <div class="card-header">
+                    <h3>{{ blog_post }}</h3>
+                    <p class="text-muted"><small>{{ blog_post.date_added|date:'M d, Y H:i' }} by {{ blog_post.owner }} <a href="{% url 'blogs:edit-post' blog_post.id %}">Edit post</a></small></p>
+                </div>
+                <div class="card-body">
+                    <p>{{ blog_post.text|linebreaks }}</p>
+                </div>
+            </div>
+        {% empty %}
+            <div>
+                <p>There are no blog posts yet.</p>
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock content %}

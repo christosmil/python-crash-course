@@ -1,0 +1,21 @@
+names = ['alice', 'bob', 'carol', 'dan', 'eve', 'faythe', 'grace', 'ivan',
+        'judy', 'mallory', 'olivia', 'peggy', 'rupert', 'sybil', 'ted',
+        'trudy', 'victor', 'walter']
+print(f"Hello, {names[0].title()}!")
+print(f"Hello, {names[1].title()}!")
+print(f"Hello, {names[2].title()}!")
+print(f"Hello, {names[3].title()}!")
+print(f"Hello, {names[4].title()}!")
+print(f"Hello, {names[5].title()}!")
+print(f"Hello, {names[6].title()}!")
+print(f"Hello, {names[7].title()}!")
+print(f"Hello, {names[8].title()}!")
+print(f"Hello, {names[9].title()}!")
+print(f"Hello, {names[10].title()}!")
+print(f"Hello, {names[11].title()}!")
+print(f"Hello, {names[12].title()}!")
+print(f"Hello, {names[13].title()}!")
+print(f"Hello, {names[14].title()}!")
+print(f"Hello, {names[15].title()}!")
+print(f"Hello, {names[16].title()}!")
+print(f"Hello, {names[-1].title()}!")
