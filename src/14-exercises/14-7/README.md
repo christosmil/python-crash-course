@@ -1,6 +1,6 @@
 # Expansions
 
-($$2 min.$$ read)
+(2 min. read)
 
 - The game can start both by clicking the "Play" button and by pressing the spacebar key.
 	- The method implementing this feature is named `_activate_game()` and is located in `expanding_the_game.py`. Most of the necessary functionality was already in the `_check_play_button()` method, so I refactored the code accordingly.
