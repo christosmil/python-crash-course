@@ -30,4 +30,4 @@
 
 **Note:** The directory `/poc` contains Proof-of-Concept images and a video of the game running.
 
-https://github.com/christosmil/python-crash-course/blob/main/src/14-exercises/14-8/poc/video-01.mp4
+https://github.com/christosmil/python-crash-course/assets/48249186/9c2b252c-fb6b-401e-802a-9c0052dbd024
