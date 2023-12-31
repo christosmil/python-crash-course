@@ -29,3 +29,5 @@
 - The game can be paused by pressing the ESC key and resumed either i) by pressing the ESC key again; or iii) by clicking the 'Play' button. The functionality and implementation is like in the exercise 14.7, but without the spacebar key functionality.
 
 **Note:** The directory `/poc` contains Proof-of-Concept images and a video of the game running.
+
+https://github.com/christosmil/python-crash-course/blob/main/src/14-exercises/14-8/poc/video-01.mp4
