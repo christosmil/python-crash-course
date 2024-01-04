@@ -25,8 +25,8 @@
 - The game has sounds, like in the exercise 14.7.
 - The issue with the shooting when the game is not active was solved.
 	- The method implementing this feature is `_check_keydown_events()` (refactored) in `sideways_shooter_final_version.py`
-- In `sideways_shooter_final_version.py`, the method `_ship_hit()` was renamed to `_ship_lost()`, since it is used both when an alien hits the ship and when an alien reaches the left edge of the screen. In both cases, the player loses a ship (if the player has any ships) or the game (if the player has no ships left).
-- The game can be paused by pressing the ESC key and resumed either i) by pressing the ESC key again; or iii) by clicking the 'Play' button. The functionality and implementation is like in the exercise 14.7, but without the spacebar key functionality.
+- In `sideways_shooter_final_version.py`, the method `_ship_hit()` was renamed to `_ship_lost()`, since it is used both when an alien hits the ship and when an alien reaches the left edge of the screen. In both cases, the player either loses a ship (if the player has any ships) or the game (if the player has no ships left).
+- The game can be paused by pressing the ESC key and resumed either i) by pressing the ESC key again; or ii) by clicking the 'Play' button. The functionality and implementation is like in the exercise 14.7, but without the spacebar key functionality.
 
 **Note:** The directory `/poc` contains Proof-of-Concept images and a video of the game running.
 
