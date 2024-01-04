@@ -1,6 +1,6 @@
 # Python Crash Course, Eric Matthes, 2nd Edition, No Starch Press
 
-(1 min. read)
+(2 min. read)
 
 This repo contains the examples and the exercises solutions of the [Python Crash Course](https://ehmatthes.github.io/pcc_2e/regular_index/). Careful! The book I used is the second edition, whereas currently (2023) the book is in its third edition.
 

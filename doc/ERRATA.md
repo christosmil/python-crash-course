@@ -32,8 +32,15 @@ The following list contains the errata found in the *7th printing* of the book. 
 22. p488: '2 files changed, *4* insertions (+)' -> '2 files changed, *2* insertions (+)'
 
 
-## Python Crash Course 3nd Edition, *1st printing*
+## Python Crash Course 3rd Edition, *1st printing*
 I also had the chance to check on the Python Crash Course 3rd Edition, *1st printing* (mostly the Django project), and I found the following errata.
 
 23. p448: 'start: "gunicorn -w 4 -b unix:$SOCKET ll\_project.wsgi:application"' -> 'start: "gunicorn -w 4 -b unix:$SOCKET learning\_log.wsgi:application"'
 24. p450: '.platform/routes.yaml' -> '.platform/services.yaml'
+
+## Cheat Sheets 3rd Edition
+The following list contains the errata found in the cheat sheets of the the 3rd Edition.
+
+25. Matplotlib, in Working with dates and times (cont.): "%S Seconds (00 to *61*)" -> "%S Seconds (00 to *59*)"
+26. Git, in Checking the log: "dc2ebd6 (HEAD -> main) Greets uer." -> "dc2ebd6 (HEAD -> main) Greets *user*."
+27. Git, in Exploring history: "*Vist* an earlier commit" -> "*Visit* an earlier commit"
